@@ -7,6 +7,38 @@
         mc:Ignorable="d"
         Title="MainView" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="101*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl Margin="0" Grid.Column="1">
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="6*"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Label" Margin="5"/>
+                    <Slider Margin="5" Grid.Row="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <ProgressBar Margin="5" Grid.Row="2" Grid.ColumnSpan="3"/>
+                    <Button Content="Button" Grid.Column="1" Margin="5"/>
+                    <CheckBox Content="CheckBox" Grid.Column="2" Margin="5"/>
+                    <DataGrid Margin="5" Grid.Row="4" Grid.ColumnSpan="3"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <TreeView Margin="0"/>
+
     </Grid>
 </Window>

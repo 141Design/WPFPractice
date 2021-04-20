@@ -23,5 +23,7 @@ namespace WPFPractice.Views
         {
             InitializeComponent();
         }
+
+        
     }
 }

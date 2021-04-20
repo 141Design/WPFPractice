@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InspectionSequencer.ViewModels
+namespace WPFPractice.ViewModels
 {
     using System.ComponentModel;
     using System.Runtime.CompilerServices;
-    class ViewModelBase : INotifyPropertyChanged
+    public class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 

@@ -1,4 +1,4 @@
-﻿namespace InspectionSequencer.ViewModels
+﻿namespace WPFPractice.ViewModels
 {
     using System;
     using System.Windows.Input;

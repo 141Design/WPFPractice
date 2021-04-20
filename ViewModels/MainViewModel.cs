@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace WPFPractice.ViewModels
 {
-    class MainViewModel
+
+    class MainViewModel : ViewModelBase
     {
+
     }
 }
